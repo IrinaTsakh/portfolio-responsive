@@ -33,7 +33,7 @@ h2 {
   font-size: 44px;
 }
 .content-section {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content {
   margin: 30px;
@@ -109,4 +109,7 @@ nav a {
 nav a :hover,
 nav li.active a {
   color: var(--branding-color);
+}
+.active {
+  color: var(--branding-color) !important;
 }
